@@ -28,19 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            label3 = new Label();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            lb_link_to_registerPage = new Label();
             label2 = new Label();
             btn_exit = new Guna.UI2.WinForms.Guna2Button();
             btn_login = new Guna.UI2.WinForms.Guna2Button();
-            checkbx_showpw = new CheckBox();
             txt_pw = new Guna.UI2.WinForms.Guna2TextBox();
             txt_username = new Guna.UI2.WinForms.Guna2TextBox();
             label1 = new Label();
@@ -48,23 +47,24 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // label3
+            // lb_link_to_registerPage
             // 
-            label3.AutoSize = true;
-            label3.Cursor = Cursors.Hand;
-            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.BlueViolet;
-            label3.Location = new Point(163, 526);
-            label3.Name = "label3";
-            label3.Size = new Size(157, 28);
-            label3.TabIndex = 19;
-            label3.Text = "Create Account";
+            lb_link_to_registerPage.AutoSize = true;
+            lb_link_to_registerPage.Cursor = Cursors.Hand;
+            lb_link_to_registerPage.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lb_link_to_registerPage.ForeColor = Color.BlueViolet;
+            lb_link_to_registerPage.Location = new Point(163, 472);
+            lb_link_to_registerPage.Name = "lb_link_to_registerPage";
+            lb_link_to_registerPage.Size = new Size(157, 28);
+            lb_link_to_registerPage.TabIndex = 19;
+            lb_link_to_registerPage.Text = "Create Account";
+            lb_link_to_registerPage.Click += lb_link_to_registerPage_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(144, 501);
+            label2.Location = new Point(144, 447);
             label2.Name = "label2";
             label2.Size = new Size(203, 25);
             label2.TabIndex = 18;
@@ -75,7 +75,7 @@
             btn_exit.BorderRadius = 15;
             btn_exit.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             btn_exit.Cursor = Cursors.Hand;
-            btn_exit.CustomizableEdges = customizableEdges1;
+            btn_exit.CustomizableEdges = customizableEdges9;
             btn_exit.DisabledState.BorderColor = Color.DarkGray;
             btn_exit.DisabledState.CustomBorderColor = Color.DarkGray;
             btn_exit.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -83,9 +83,9 @@
             btn_exit.FillColor = Color.Red;
             btn_exit.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_exit.ForeColor = Color.White;
-            btn_exit.Location = new Point(260, 435);
+            btn_exit.Location = new Point(260, 381);
             btn_exit.Name = "btn_exit";
-            btn_exit.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btn_exit.ShadowDecoration.CustomizableEdges = customizableEdges10;
             btn_exit.Size = new Size(143, 52);
             btn_exit.TabIndex = 17;
             btn_exit.Text = "Exit";
@@ -96,7 +96,7 @@
             btn_login.BorderRadius = 15;
             btn_login.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             btn_login.Cursor = Cursors.Hand;
-            btn_login.CustomizableEdges = customizableEdges3;
+            btn_login.CustomizableEdges = customizableEdges11;
             btn_login.DisabledState.BorderColor = Color.DarkGray;
             btn_login.DisabledState.CustomBorderColor = Color.DarkGray;
             btn_login.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -104,31 +104,19 @@
             btn_login.FillColor = Color.BlueViolet;
             btn_login.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_login.ForeColor = Color.White;
-            btn_login.Location = new Point(84, 435);
+            btn_login.Location = new Point(84, 381);
             btn_login.Name = "btn_login";
-            btn_login.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btn_login.ShadowDecoration.CustomizableEdges = customizableEdges12;
             btn_login.Size = new Size(143, 52);
             btn_login.TabIndex = 16;
             btn_login.Text = "Login";
-            // 
-            // checkbx_showpw
-            // 
-            checkbx_showpw.AutoSize = true;
-            checkbx_showpw.Cursor = Cursors.Hand;
-            checkbx_showpw.FlatStyle = FlatStyle.Flat;
-            checkbx_showpw.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            checkbx_showpw.Location = new Point(251, 381);
-            checkbx_showpw.Name = "checkbx_showpw";
-            checkbx_showpw.Size = new Size(152, 27);
-            checkbx_showpw.TabIndex = 15;
-            checkbx_showpw.Text = "Show Password";
-            checkbx_showpw.UseVisualStyleBackColor = true;
+            btn_login.Click += btn_login_Click;
             // 
             // txt_pw
             // 
             txt_pw.BorderRadius = 25;
             txt_pw.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            txt_pw.CustomizableEdges = customizableEdges5;
+            txt_pw.CustomizableEdges = customizableEdges13;
             txt_pw.DefaultText = "";
             txt_pw.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txt_pw.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -145,7 +133,7 @@
             txt_pw.PlaceholderForeColor = Color.Black;
             txt_pw.PlaceholderText = "Password";
             txt_pw.SelectedText = "";
-            txt_pw.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            txt_pw.ShadowDecoration.CustomizableEdges = customizableEdges14;
             txt_pw.Size = new Size(319, 56);
             txt_pw.TabIndex = 13;
             // 
@@ -153,7 +141,7 @@
             // 
             txt_username.BorderRadius = 25;
             txt_username.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            txt_username.CustomizableEdges = customizableEdges7;
+            txt_username.CustomizableEdges = customizableEdges15;
             txt_username.DefaultText = "";
             txt_username.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txt_username.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -170,7 +158,7 @@
             txt_username.PlaceholderForeColor = Color.Black;
             txt_username.PlaceholderText = "Username";
             txt_username.SelectedText = "";
-            txt_username.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            txt_username.ShadowDecoration.CustomizableEdges = customizableEdges16;
             txt_username.Size = new Size(319, 56);
             txt_username.TabIndex = 12;
             // 
@@ -201,12 +189,11 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(492, 585);
-            Controls.Add(label3);
+            ClientSize = new Size(492, 538);
+            Controls.Add(lb_link_to_registerPage);
             Controls.Add(label2);
             Controls.Add(btn_exit);
             Controls.Add(btn_login);
-            Controls.Add(checkbx_showpw);
             Controls.Add(txt_pw);
             Controls.Add(txt_username);
             Controls.Add(label1);
@@ -224,11 +211,10 @@
 
         #endregion
 
-        private Label label3;
+        private Label lb_link_to_registerPage;
         private Label label2;
         private Guna.UI2.WinForms.Guna2Button btn_exit;
         private Guna.UI2.WinForms.Guna2Button btn_login;
-        private CheckBox checkbx_showpw;
         private Guna.UI2.WinForms.Guna2TextBox txt_pw;
         private Guna.UI2.WinForms.Guna2TextBox txt_username;
         private Label label1;

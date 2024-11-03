@@ -67,9 +67,15 @@ namespace register_login_system
                 }
                 catch (SqlException ex)
                 {
-                    MessageBox.Show( "Error: " + ex.Message);
+                    MessageBox.Show("Error: " + ex.Message);
                 }
             }
+        }
+
+        private void lb_link_to_loginPage_Click(object sender, EventArgs e)
+        {
+            new frm_login().Show();
+            this.Hide();
         }
     }
 }
