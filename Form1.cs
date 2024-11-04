@@ -26,6 +26,7 @@ namespace register_login_system
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(confirm_pw))
             {
                 MessageBox.Show("Please fill in all fields.");
+                
                 return;
             }
 
@@ -36,7 +37,8 @@ namespace register_login_system
             }
 
             RegisterUser(username, password);
-
+            new frm_login().Show();
+            this.Hide();
         }
 
         private void RegisterUser(string username, string password)

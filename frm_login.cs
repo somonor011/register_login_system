@@ -31,6 +31,8 @@ namespace register_login_system
             if (UsersLogin(username, password))
             {
                 MessageBox.Show("Login Success");
+                new frm_dashboad().Show();
+
             }
             else
             {
