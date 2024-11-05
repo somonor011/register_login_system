@@ -35,7 +35,7 @@ namespace register_login_system
                
                 frm_dashboad ds = new frm_dashboad(username);
                 ds.Show();
-
+                this.Hide();
             }
             else
             {

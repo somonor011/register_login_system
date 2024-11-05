@@ -21,7 +21,16 @@ namespace register_login_system
 
         private void guna2Panel2_Paint(object sender, PaintEventArgs e)
         {
-            lb_admin.Text =username;
+            lb_admin.Text = username;
+        }
+
+        private void frm_dashboad_Load(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void btn_home_page_Click(object sender, EventArgs e)
+        {
         }
     }
 }
