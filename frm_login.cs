@@ -13,6 +13,7 @@ namespace register_login_system
 {
     public partial class frm_login : Form
     {
+       
         private string connect = "Data Source=SOMONOR;Initial Catalog=DBASP;Integrated Security=True;";
         public frm_login()
         {
@@ -31,7 +32,9 @@ namespace register_login_system
             if (UsersLogin(username, password))
             {
                 MessageBox.Show("Login Success");
-                new frm_dashboad().Show();
+               
+                frm_dashboad ds = new frm_dashboad(username);
+                ds.Show();
 
             }
             else

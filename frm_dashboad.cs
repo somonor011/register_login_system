@@ -12,9 +12,16 @@ namespace register_login_system
 {
     public partial class frm_dashboad : Form
     {
-        public frm_dashboad()
+        private string username;
+        public frm_dashboad(string username)
         {
             InitializeComponent();
+            this.username = username;
+        }
+
+        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        {
+            lb_admin.Text =username;
         }
     }
 }

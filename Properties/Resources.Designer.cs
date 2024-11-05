@@ -63,6 +63,38 @@ namespace register_login_system.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap png_clipart_computer_icons_home_home_angle_text_thumbnail {
+            get {
+                object obj = ResourceManager.GetObject("png-clipart-computer-icons-home-home-angle-text-thumbnail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_computer_icons_home_black_home_icon_miscellaneous_angle_black_thumbnail {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-computer-icons-home-black-home-icon-miscellaneous-angle-black-thu" +
+                        "mbnail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_computer_icons_home_black_home_icon_miscellaneous_angle_black_thumbnail1 {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-computer-icons-home-black-home-icon-miscellaneous-angle-black-thu" +
+                        "mbnail1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngtree_vector_users_icon_png_image_856952 {
             get {
                 object obj = ResourceManager.GetObject("pngtree-vector-users-icon-png-image_856952", resourceCulture);
